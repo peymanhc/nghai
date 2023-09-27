@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Yekan';
+  src: url('../src/fonts/IranYekan/woff/iranyekanwebregular.woff') format('woff'), url('../src/fonts/IranYekan/eot/iranyekanweblight.eot') format('eot'),
+    url('../src/fonts/IranYekan/ttf/iranyekanweblight.ttf') format('ttf');
+  font-weight: 200;
+}
+
+  body {
+    margin: 0;
+    font-family: Yekan !important;
+    background-color: #fafafa;
+    overflow-x: unset;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ff0000;
+  }
+
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  body::-webkit-scrollbar-track {
+    border-left: 2px solid #8f8f8f;
+  }
+
+  * {
+    scrollbar-width: thin;
+    font-family: Yekan !important;
+    scrollbar-color: #ff0000 white;
+  }
+
+  *::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+  }
+  .switch-wrapper {
+    position: relative;
+  }
